@@ -58,7 +58,7 @@ function onMessageReceived(message, sender, sendResponse) {
 let menuEntry = {
 	id: menuEntryId,
 	title: "Archive Page Now",
-	contexts: ["page", "tab"],
+	contexts: ["page", "tab", "selection"],
 }
 let linkMenuEntry = {
 	id: linkMenuEntryId,
