@@ -4,7 +4,7 @@ A Firefox Web Extension to archive files to the [Wayback Machine](https://web.ar
 
 Available for Firefox here: <https://addons.mozilla.org/firefox/addon/save-page-now-unofficial/>.
 
-Changelog: [CHANGELOG.md]
+Changelog: [CHANGELOG.md](CHANGELOG.md)
 
 ## Usage
 
