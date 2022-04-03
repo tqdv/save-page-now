@@ -6,6 +6,8 @@ and this project **does not** adhere to [Semantic Versioning](https://semver.org
 
 ## [Unreleased]
 
+- Handle the case where the user closes the "Save Page Now" tab before it can load.
+
 [Unreleased]: https://github.com/tqdv/save-page-now/compare/v0.1.3...HEAD
 [0.1.3]: https://github.com/tqdv/save-page-now/releases/tag/v0.1.3
 [0.1.2]: https://github.com/tqdv/save-page-now/releases/tag/v0.1.2

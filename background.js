@@ -53,6 +53,10 @@ function onMessageReceived(message, sender, sendResponse) {
 	}
 }
 
+function onTabRemoved(tabId, removeInfo) {
+	urls.delete(tabId)
+}
+
 // Create menu entries
 
 let menuEntry = {
@@ -81,5 +85,6 @@ browser.contextMenus.create(linkMenuEntry, createMenuEntryCallback)
 browser.contextMenus.onClicked.addListener(onMenuClicked)
 browser.browserAction.onClicked.addListener(onBrowserActionClicked)
 browser.runtime.onMessage.addListener(onMessageReceived)
+browser.tabs.onRemoved.addListener(onTabRemoved)
 
 console.log("Registered listeners in background.js")
