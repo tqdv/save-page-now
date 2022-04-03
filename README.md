@@ -1,16 +1,18 @@
 # Save Page Now
 
-A Firefox Web Extension to archive files to the Wayback Machine (https://web.archive.org).
+A Firefox Web Extension to archive files to the [Wayback Machine](https://web.archive.org).
 
-Available for Firefox here: https://addons.mozilla.org/firefox/addon/save-page-now-unofficial/
+Available for Firefox here: <https://addons.mozilla.org/firefox/addon/save-page-now-unofficial/>.
+
+Changelog: [CHANGELOG.md]
 
 ## Usage
 
 Either:
 
 - Click on the toolbar icon to archive the current page
-- Right-click on a page and select "Save Page Now" to archive the current page
-- Right-click on a link and select "Save Page Now (link)" to archive the linked URL
+- Right-click on a page and select "Archive Page Now" to archive the current page
+- Right-click on a link and select "Archive Link Now" to archive the linked URL
 
 ## See also
 
